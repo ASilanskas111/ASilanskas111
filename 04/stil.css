@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+
+ h1 {
+    padding: 10px;
+    margin: 0;
+height: 300px;
+overflow: hidden;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    letter-spacing: -.30em;
+    text-rendering: optimizespeed;
+    margin: 0;
+}
+ 
+div, span {
+    box-sizing: border-box;
+    zoom: 1;
+    letter-spacing: normal;
+    text-rendering: auto;
+
+}
+.box span, .box3 span, .box4 span, .linija span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 10px;
+    height: 300px;
+    margin: 0 auto;
+    
+    /* position: relative; */
+    /* top: calc (50% - 20px); */
+}
+
+.box {
+    border: 1px solid green;
+    border-left: none;
+    background-color: rgb(37, 33, 2);
+    /* padding: 8px; */
+    /* margin: 5px; */
+      width: 50%;
+    display: inline-block;
+ }
+.box3 {
+    border: 1px solid green;
+    border-left: none;
+    background-color: rgb(37, 8, 170);
+    /* padding: 8px; */
+    /* margin: 5px; */
+    /* height: 200px; */
+    width: 33.33333%;
+    display: inline-block;
+    box-sizing: border-box;
+ }
+ .box4 {
+    border: 1px solid green;
+    border-left: none;
+    background-color: rgb(70, 69, 62);
+    /* padding: 8px; */
+    /* margin: 5px; */
+    /* height: 200px; */
+    width: 25%;
+    display: inline-block;
+ }
+ .linija {
+    border: 1px solid green;
+    border-left: none;
+    background-color: rgb(70, 69, 62);
+    /* padding: 8px; */
+    /* margin: 5px; */
+    /* height: 200px; */
+    width: 100%;
+    display: inline-block;
+}
+
+img { width: auto; height: 100%;
+    display: inline-block;
+}
+span {color: chocolate;
+
+}

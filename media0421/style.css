@@ -1,0 +1,177 @@
+/* @media screen and (min-width: 600px ) {
+    body{
+     background-color: black;
+    }
+ } */
+/* 
+/* /*         
+    @media screen and (max-width: 500px) {
+       h1 { 
+           background-color:darkblue;
+        }
+    } */
+
+
+
+/* 
+.meniu, nav, ul, li { 
+    padding: 0px;
+    margin: 0px;
+ }
+
+ul {
+     list-style: none;
+     width: 100%;
+     display: inline-block;
+
+ }
+
+
+li { 
+    padding: 15px;
+    font-size: 20px;
+    background-color: chocolate;
+    float: left;
+
+ }
+
+.meniu li a {
+    text-decoration: none;
+    color: cornsilk;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight:900;
+
+}
+
+
+li:hover{
+background-color: darkblue;
+
+}
+
+ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 540px) {
+    .meniu li { 
+            padding: 5px 15px;
+            font-size: 15px;
+            bbackground-color: darkblue;
+            float: none;
+            text-align: center;
+
+                }
+    }
+
+    @media screen and (max-width: 302px) {
+        .meniu li { 
+                padding: 5px 15px;
+                font-size: 30px;
+                bbackground-color: darkblue;
+                float: none;
+                text-align: center;
+    
+                    }
+        } */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+          
+.pirma {
+    background-color: rgba(69, 13, 201, 0.8);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+    width: 33.3333%;
+    float: left;
+
+}
+
+          
+.antra {
+    background-color: rgba(221, 7, 7, 0.8);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+    width: 33.3333%;
+    float: left;
+
+}
+
+          
+.trecia {
+    background-color: rgba(116, 199, 8, 0.8);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+    float: left;
+    width: 33.333% ;
+
+}
+
+          
+ /* @media screen and (max-width: 800px) {
+    .pirma {
+            background-color: rgba(69, 13, 201, 0.8);
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 30px;
+            width: 50%;
+
+        } */
+        
+     /* } */
+
+@media screen and (max-width: 1000px) {
+    .antra {
+      background-color: rgba(221, 7, 7, 0.8);
+      text-align: center;
+      padding: 20px 0px;
+      font-size: 30px;
+      width: 50%;
+        }
+     }
+
+@media screen and (max-width: 1000px) {
+        .pirma {
+            background-color: rgba(69, 13, 201, 0.8);
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 30px;
+            width: 100%;
+
+        }
+    }
+        
+@media screen and (max-width: 1000px) {
+.trecia {
+    background-color: rgba(116, 199, 8, 0.8);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+    width: 50%;
+     }
+}
+
+     @media screen and (max-width: 500px) {
+        .antra, .trecia, .pirma {
+            /* background-color: rgba(221, 7, 7, 0.8); */
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 30px;
+            width: 100%;
+
+        
+        }
+        
+     }

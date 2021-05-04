@@ -1,0 +1,52 @@
+.meniu {
+padding: 10px;
+background-color: brown;
+
+}
+/* ">" teisioginai vaikai */
+/* "+" sekantis brolis po DIV'o */
+/* "~" viso bloriai po DIV'o */
+
+.meniu  a {
+ color: rgb(99, 231, 10);
+ text-decoration: none;
+ display: inline-block;
+ padding: 10px;
+ margin: 0 10px;
+}
+
+/* pseudo klase hover */
+
+.meniu a:hover{
+color: darkblue;
+}
+
+.meniu + a {
+    color: rgb(207, 124, 124);
+   
+}
+
+.meniu + a:hover{
+    color: darkblue;
+}
+    
+
+.meniu > a {
+    color: rgb(81, 200, 247);
+   
+}
+
+.meniu > a:hover{
+    color: rgb(243, 220, 12);
+}
+
+
+.meniu ~ a {
+    color: rgb(109, 3, 196);
+   
+}
+
+.meniu ~ a:hover{
+    color: rgb(24, 37, 27);
+}
+    

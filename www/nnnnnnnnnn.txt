@@ -1,0 +1,313 @@
+body {
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    
+}
+
+.virsus {
+    position: absolute;
+    width: 100%;
+    padding: 26px 20px;
+    align-content: center;
+    z-index: 1;
+
+}
+.virsus:hover {
+    background-color:white;
+}
+
+.ulas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+   float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.virsus:hover li a{
+    color: black;
+}
+
+
+.ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* LOGOTIPAS */
+
+div .logo2 {
+    top: 14px;
+    left: 46.5% ;
+    width: 115px;
+    z-index: 12;
+    padding: 14px 16px;
+    float: left;
+    z-index: 20;
+}
+.logo1 {
+    top: 14px;
+        left: 46.5% ;
+        width: 115px;
+        z-index: 12;
+        padding: 14px 16px;
+        float: left;
+        z-index: 20;
+
+}
+.logo1{
+    /* display: none; */
+}
+
+.virsus:hover .logo2 img{
+    display: none;
+    z-index: 8;
+
+}
+.logo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* LOGO TIPAS END */
+
+/* LOGOTIPAS */
+
+
+/* .logo {
+    margin-left: 40%;
+    width: 115px;
+    height: auto;
+    padding: 0px 5px;
+    z-index: 5;
+}
+
+.logo1{
+    display: none;
+}
+
+.logo2:hover {
+    display: none;
+
+} */
+
+
+/* 
+.logo1{
+    display: none;
+}
+
+.logo img .logo2{
+    position:absolute;
+    top: 33px;
+    left: 100% ;
+    width: 115px;
+    z-index: 12;
+}
+
+.logo img .logo1 {
+    display: none;
+    position:absolute;
+    top: 33px;
+    left: 100% ;
+    width: 115px;
+    z-index: 15;
+}
+
+.logo1:hover{
+    z-index: 10;
+}
+.logo2:hover{
+    display: none;
+
+ } */
+
+
+
+
+/* LOGO TIPAS END */
+
+
+
+.icon img {
+
+    width: 24px;
+    height: 24px;
+    padding: 30px;
+}
+
+.cart1 {
+    position:fixed;
+    top: 9px;
+    left: 93%;
+    z-index: 10;
+}
+
+.virsus:hover .cart1 img{
+    display: none;
+    z-index: 8;
+}
+.cart2 {
+    position:fixed;
+    top: 9px;
+    left: 93%;
+    z-index: 9 ;
+}
+
+.user1 {
+    position:fixed;
+    top: 9px;
+    left: 87%;
+    z-index: 10;
+}
+.virsus:hover .user1 img{
+    display: none;
+    z-index: 8;
+}
+
+.user2 {
+    position:fixed;
+    top: 9px;
+    left: 87%;
+    z-index: 9 ;
+}
+
+.icon .searsh1 {
+    position:fixed;
+    vertical-align: top;
+    top: 9px;
+    left: 90%;
+    z-index: 10;
+}
+.virsus:hover .searsh1 img{
+    display: none;
+    z-index: 8;
+}
+
+.icon .searsh2 {
+    position:fixed;
+    vertical-align: top;
+    top: 9.136px;
+    left: 89.95%;
+    z-index: 9 ;
+}
+
+/* DIDELES DVI FOTO */
+
+DVI NUOTRAUKAS DIDELES */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.bigfotosss div {
+    display: inline-block;
+    width: 50%;
+}
+
+.bigfotosss {
+    letter-spacing: -.31em;
+    float: left;
+}
+
+
+h1{
+    position: absolute;
+    top: 250px;
+    left: 12%;
+    color: white;
+    letter-spacing: 0.08em;
+}
+
+
+
+h2 {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 430px;
+    left: 17%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+
+
+} 
+
+h2:hover {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 430px;
+    left: 17%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    background:#ff7c24;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    
+
+}
+
+
+.bigfotosss .text2 h1{
+    left: 65%;
+}
+
+.bigfotosss .text2 h2{
+    left: 69%;
+}
+
+
+
+
+
+
+
+
+
+/* NAUJAS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+

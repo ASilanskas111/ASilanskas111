@@ -1,0 +1,1260 @@
+*{box-sizing: border-box;}
+
+
+
+body{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #2a2928;
+}
+
+/* ISOKANCIO MENIU SPALVA */
+
+.virsus {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    transition: all 300ms cubic-bezier(0, 0, 0.25, 1);
+    background-color:transparent;
+    position:absolute;
+    top: 0px;
+}    
+
+.virsus:hover {
+    background-color:rgb(255, 255, 255);
+    z-index: 30;
+    position: fixed;
+} 
+/* END ISOKANCIO MENIU SPALVA */
+/* UL IR LI APRASYMAS, LOGO aprasymas */
+
+
+.ulas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 26px 5px;
+}    
+
+.ulas ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+}
+
+li {
+    font-size: 20px;
+    float: left;
+    padding: 0px 10.5px;
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.virsus:hover ul a{
+    color: black;
+}
+
+.logo{
+    width: 115px;
+    height: auto;
+    margin: 0 auto;
+    padding: 42px 15px;
+}
+
+.logo img{
+    width: 115px;
+    height: auto;
+    /* z-index: 5; */
+    
+}
+.logo .imgB{
+    display: none;
+}
+
+.virsus:hover .imgB {
+    display:inline-block;
+}
+
+.virsus:hover .imgW {
+    display:none;
+}
+
+/* END UL'AI IR LI APRASYMAS, Logo aprasymas */
+
+/* ICONELES  */
+
+.icon {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    
+}    
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    list-style: none;
+    text-align:right;
+    display: inline-block;
+}
+
+
+.user1 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9px;
+    left: 87%;
+    z-index: 10;
+}
+.virsus:hover .user1 img{
+    display: none;
+    z-index: 8;
+}
+
+.user2 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9px;
+    left: 87%;
+    z-index: 9 ;
+}
+
+.icon .searsh1 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9px;
+    left: 90%;
+    z-index: 10;
+}
+.virsus:hover .searsh1 img{
+    display: none;
+    z-index: 8;
+}
+
+.icon .searsh2 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9.136px;
+    left: 89.95%;
+    z-index: 9 ;
+}
+
+.icon .cart1 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 6px;
+    left: 93%;
+    z-index: 10;
+}
+
+.virsus:hover .cart1 img{
+    display: none;
+    z-index: 8;
+}
+.icon .cart2 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 6px;
+    left: 93%;
+    z-index: 9 ;
+}
+.cart1 img{
+    width: 29px;
+    height: 29px;
+}
+.cart2 img{
+    width: 29px;
+    height: 29px;
+}
+
+.icon::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* END'AS IKONELES */
+
+/* DIDELES NUOTRAUKAS */
+
+
+.bigfotosss{
+    letter-spacing: -.31em;
+    width: 100%;
+}
+
+
+.bigfotosss .B1 img{
+    width: 50%;
+    height: auto;
+    float: left;
+
+}
+.bigfotosss .B2 img{
+    width: 50%;
+    height: auto;
+}
+/* tesktas */
+
+
+
+
+.tekstasB1{
+    position: absolute;
+    top: 250px;
+    left: 10%;
+    margin: 0 auto;
+    color: rgb(250, 255, 248);
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+
+.tekstasB2{
+    position: absolute;
+    top: 250px;
+    left: 65%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.B1 span{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 400px;
+    left: 15%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+
+}
+
+.B2 span{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 400px;
+    left: 70%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+
+}
+
+.B1 span:hover {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 400px;
+    left: 15%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    background:#ff7c24;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    
+
+}
+
+.B2 span:hover {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 400px;
+    left: 70%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    background:#ff7c24;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    
+
+}
+
+/* PREKES PIRMAS BLOKAS */
+
+.Pav_prekes{
+    margin: 80px 46% 50px;
+
+}
+.Pav_prekes a{
+text-decoration: none;
+color: #2a2928;
+font-family: Montserrat, sans-serif;
+font-size: 26.25px;
+line-height: 1.2;
+}
+
+/* PIRMOS TRYS PREKES */
+
+.prekes{
+    width: 100%;
+    height: auto;
+    padding: 0 80px 0 80px;;
+}
+
+
+.prekes img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.CC {
+    position: relative;
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+/* keiciasi foto uzejus ant jos */
+.CC .img-top{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height: auto;
+  opacity: 0;   
+}
+.CC:hover .img-top{
+    position: absolute;
+    opacity: 1;
+    z-index: 8;
+}
+/* ENDAS keiciasi foto uzejus ant jos */
+
+.CM{
+    position: relative;
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+
+/* keiciasi foto uzejus ant jos */
+.CM .img-top{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+    opacity: 0;   
+  }
+  .CM:hover .img-top{
+      position: absolute;
+      opacity: 1;
+      z-index: 8;
+  }
+  /* ENDAS keiciasi foto uzejus ant jos */
+
+.NN{
+    position: relative;
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+
+/* keiciasi foto uzejus ant jos */
+.NN .img-top{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+    opacity: 0;   
+  }
+  .NN:hover .img-top{
+      position: absolute;
+      opacity: 1;
+      z-index: 8;
+  }
+  /* ENDAS keiciasi foto uzejus ant jos */
+
+.prekes span {
+    position: absolute;
+    padding: 3px 8px 2px;
+    font-size: 0.6875em;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    background: #a94400;
+    color: white;
+    top: 10px;
+    z-index: 10;
+    
+}
+
+
+.prekes p {
+    height: 44px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+
+.de{
+    opacity: 0.5;
+}
+span.red {
+    background: #ac353b;
+    top: 10px;
+    z-index: 10;
+}
+
+.prekes::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ANTRA PREKIU GRUOPE */
+
+.prekes2 {
+    width: 100%;
+    height: auto;
+    padding: 0 80px 0 80px;;
+}
+
+.Pav_prekes2{
+    margin: 80px 0 50px;
+}
+
+.Pav_prekes2 a{
+    margin: 0 2px 0 40%;
+    color: #2a2928;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-size: 26.25px;
+    line-height: 1.2;
+}
+
+/* PREKES 2 grupe */
+
+.prekes2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  
+}
+
+.CCC {
+    position: relative;
+    width: 33.3333%;
+    height: auto;
+    float: left;
+    
+}
+/* keiciasi foto uzejus ant jos */
+.CCC .img-top{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+    opacity: 0;   
+  }
+  .CCC:hover .img-top{
+      position: absolute;
+      opacity: 1;
+      z-index: 8;
+  }
+  /* ENDAS keiciasi foto uzejus ant jos */
+
+
+.CMM{
+    position: relative;
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+/* keiciasi foto uzejus ant jos */
+.CMM .img-top{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+    opacity: 0;   
+  }
+  .CMM:hover .img-top{
+      position: absolute;
+      opacity: 1;
+      z-index: 8;
+  }
+  /* ENDAS keiciasi foto uzejus ant jos */
+
+
+.NNN{
+    position: relative;
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+
+/* keiciasi foto uzejus ant jos */
+.NNN .img-top{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+    opacity: 0;   
+  }
+  .NNN:hover .img-top{
+      position: absolute;
+      opacity: 1;
+      z-index: 8;
+  }
+  /* ENDAS keiciasi foto uzejus ant jos */
+
+.prekes2 span {
+    position: absolute;
+    padding: 3px 8px 2px;
+    font-size: 0.6875em;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    background: #a94400;
+    color: white;
+    
+}
+
+.prekes2 p {
+    height: 44px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+span.rudas {
+    background: #25110e;
+    z-index: 10;
+}
+
+.prekes2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FOTO APACIA */
+
+.slide_apacia{
+    // margin: 60px 0 50px;
+    letter-spacing: -.31em;
+    width: 100%;
+    // padding: 0;
+    // box-sizing: border-box;
+}
+
+.slide_apacia .colum {
+width: 100%;
+
+}
+
+
+
+
+.slide_apacia img{
+    width: 50%;
+    height: auto;
+    float:left ;
+
+}
+
+.slide_apacia::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.tekstas_all {
+    width: 45%;
+    margin-left: 52%; 
+    padding: 80px;
+    position:absolute;
+    color:#ff7c24;
+    letter-spacing: 0.05em;
+    text-align: center;
+    z-index: 20;
+    
+}
+.tekstas_all span{
+    font-size: 1.75em;
+}
+
+.tekstas_all a{
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    font-size: 0.875em;
+    border-bottom: 2px solid;
+}
+
+.tekstas_all::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* ENDAS TEXTAS */
+
+/* feedback */
+
+.feedback{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.875em;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+}
+
+.feedback_turinys2 img{
+
+    width: 120px;
+
+}
+.feedback_turinys2 p{
+    
+    font-size: 1.75em;
+    text-align: center;
+}
+
+
+.box3 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.brend {
+	width: 30%;
+    height: auto;
+    margin-right: 10px; 
+    float: left;
+    
+}
+
+.brend2 {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.brend3 {
+    width: 30%;
+    height: auto;
+    margin-left: 10px; 
+    float: left;
+}
+
+.box3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* SLAIDERIS */
+
+.baneris {
+    
+    width: 100%;
+    height: auto;
+      
+}
+
+.baneris .laik {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.baneris .lek {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.banertext {
+    position:absolute;
+    left:37%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+
+}
+
+.baneris span{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin: 160px auto;
+    left: 45%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}
+
+.baneris span:hover {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+ 
+    left: 45%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    background:#ff7c24;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+}
+
+.baneris::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+
+/* ______________________________________________________________________ */
+
+.Pav_prekes3{
+    /* margin: 80px 0 50px; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    
+}
+.Pav_prekes3 a{
+text-decoration: none;
+color: #2a2928;
+font-family: Montserrat, sans-serif;
+font-size: 26.25px;
+line-height: 1.2;
+}
+
+.prekes3 span{
+    position: absolute;
+    padding: 3px 8px 2px;
+    font-size: 0.6875em;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    background: #a94400;
+    color: white;
+}
+
+.prekes3{
+    width: 100%;
+    padding: 0 80px 0 80px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.prekes3 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.CC3 {
+    position: relative;
+    width: 48%;
+    height: auto;
+    float: left;
+    margin-right: 2%; 
+}
+/* keiciasi foto uzejus ant jos */
+
+.CC3 .img-top{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height: auto;
+  opacity: 0;   
+}
+.CC3:hover .img-top{
+    position: absolute;
+    opacity: 1;
+    z-index: 8;
+}
+
+.NN3{
+    position: relative;
+    width: 48%;
+    height: auto;
+    float: left;
+}
+/* keiciasi foto uzejus ant jos */
+
+.NN3 .img-top{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+    opacity: 0;   
+}
+.NN3:hover .img-top{
+    position: absolute;
+    opacity: 1;
+    z-index: 8;
+}
+
+span.color {
+    position: absolute;
+    background: #25110e;;
+    top: 10px;
+    z-index: 10;
+}
+
+.prekes3:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.button{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.button a{
+    background: #ff7c24;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-width: 2px;
+    border-color: #ff7c24;
+    vertical-align: top;
+    border-radius: 100px;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+}
+.button a:hover {
+    color:#ff7c24;
+    border: 2px solid #ff7c24;
+    border-color: #ff7c24;
+    background:transparent;
+
+}
+
+.button:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    // visibility: hidden;
+}
+
+// ____________________________________________________
+
+
+.box5 {
+    width: 100%;
+    height: auto;
+    // margin: 0 auto;
+    // padding-top: 80px;
+    // padding-bottom: 80px;
+    background-color: #ece9e7;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 40px * 2);
+
+  
+}
+.box-left{
+    width: 50%;
+    align-content: center;
+    padding: 20px 0  20px 20px;
+    // margin: 20px 10px;
+    background-color: #ece9e7;
+    float: left;
+    width: calc(50% - 40px);
+    
+    
+
+}
+
+.box-right{
+    width: 50%;
+    height: auto;
+    // margin-left: 740px;
+    padding: 80px;
+    background-color: #b64900;
+    float: left;
+    // position:absolute;
+    width: calc(50% - 40px);
+    text-align: center;
+    
+
+}
+
+.box5:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;   
+}
+
+// .tekstas_oll {
+//     height: auto;
+//     padding: 160px 150px 150px 150px;
+//     // margin: 20px 20px 20px;
+//     // position: absolute;
+   
+//     text-align: center;
+//     background-color:#ece9e7;
+//     position: absolute;
+//     float: left;
+
+
+// .box-right .tekstas_oll span{
+//     font-size: 1.75em;
+//     z-index: 10;
+// }
+
+
+// .tekstas_oll a{
+//     text-decoration: none;
+//     cursor: pointer;
+//     border-bottom: 2px solid #2a2928 ;
+
+// }
+
+// .tekstas_oll a:after {
+//     content: "";
+//     display: block;
+//     height: 0;
+//     clear: both;
+
+    
+// }
+// _____________________________________________________________________________
+
+
+.Lookbook{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+     a {
+    text-decoration: none;
+    color: #2a2828;
+    font-family: Montserrat, sans-serif;
+    font-size: 26.25px;
+    line-height: 1.2;
+    }
+}
+
+
+
+.deze {
+    // display: inline-block;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background-color: #FAFAFA;
+    min-width: 420px;
+    float: left;
+        img{
+            width: 50%;
+            height: auto;
+        }
+ 
+}
+
+
+.dezeR {
+    width: 40%;
+    // outline: 1px solid #C3C3C3;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    // min-width: 900px;
+    float: left;
+        img{
+        width: 50%;
+        height: auto;
+        padding: 25px;
+        float: left;
+    }
+         h1{
+        font-size: 1.375em;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.2;
+        text-align: left
+    }
+}
+
+
+.akiniai_slaideris {
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto 0 auto;
+    height: 500px;
+    width: 100%;
+    object-position: 0 -500px;
+        img {
+            display: block;
+            margin: 10px auto 0 auto;
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+          }
+   
+}
+
+.pagefooter {
+    width:100%;
+    height: auto;
+    align-content: center;
+    padding: 90px 0 0;
+    display: block;
+}
+
+
+// .container.h6{
+//     font-family: Montserrat, sans-serif;
+
+//     font-size: 0.875em;
+//     line-height: 1.5em;
+//     font-weight: 500;
+//     letter-spacing: 0.08em;
+//     font-size: 0.75em;
+//     color: #2a2928;
+//     text-transform: uppercase;
+//     text-align: left;
+
+// }
+
+
+.container p{
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    color: #7e7d7c;
+    display: block;
+    margin: 0 0 5px;
+    padding: 0;
+    
+
+
+}
+.pirmas{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 0 20px 90px;
+    text-align: left;
+    color: #7e7d7c;
+        h6{
+         color:#2a2928;
+                }
+
+}
+
+.antras{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 0 20px 90px;
+    text-align: left;
+    color: #7e7d7c;
+    h6{
+        color:#2a2928;
+               }
+
+}
+.trecias{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 0 20px 90px;
+    text-align: left;
+    color: #7e7d7c;
+    h6{
+        color:#2a2928;
+               }
+
+}
+.ketvirtas{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 0 20px 90px;
+    text-align: left;
+    color: #7e7d7c;
+    h6{
+        color:#2a2928;
+               }
+
+}
+
+.pagefooter:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;   
+}
+.container{
+    border-top: 1px solid #d3d1d0;
+    padding: 30px 0;
+        .soc img {
+            width: 20px;
+            height: 20px;            
+        }
+             .soc_list{
+                display: inline-block;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+             }
+
+}
+
+
+
+
+
+
+.end{
+        border-top: 1px solid #d3d1d0;
+    padding: 30px 0 0 0;
+}
+
+
+
+// }
+
+// .box-right .tekstas_oll span{
+//     font-size: 1.75em;
+// }
+// .tekstas_oll p{
+// display: block;
+//     margin-block-start: 1em;
+//     margin-block-end: 1em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+
+// }
+
+// .tekstas_oll a{
+// display: block;
+//     margin-block-start: 1em;
+//     margin-block-end: 1em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+//     cursor: pointer;
+// }
+
+// .button:after {
+//     content: "";
+//     display: block;
+//     height: 0;
+//     clear: both;
+//     visibility: hidden;
+// }
+
+// .tekstas_oll {
+//     display: inline-block;
+//     color:#2a2928;;
+//     letter-spacing: 0.05em;
+//     text-align: center;
+//     z-index: 20;
+    
+// }
+// .tekstas_oll span{
+//     font-size: 1.75em;
+// }
+
+// .tekstas_oll a{
+//     text-decoration: none;
+//     letter-spacing: 0.08em;
+//     font-size: 0.875em;
+//     border-bottom: 1px solid;
+// 

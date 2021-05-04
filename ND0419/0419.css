@@ -1,0 +1,107 @@
+
+div { 
+    border: 0px solid black;
+    margin: 2px;
+    /* float: left;  */
+
+}
+
+
+/* eilutes */
+.juosta { 
+border: 0px solid #0000ff;
+margin: 0px;
+
+/* background-color: darkolivegreen; */
+}
+
+.juosta::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.kvadratas { 
+     float: left;
+     background-color: darkblue;
+     width: auto;
+
+} 
+
+/* blokas eiluteje */
+.kvadratas .turinys { 
+    /* display: table; */
+    width: 500px;
+    height: auto;
+    
+
+} 
+
+img {
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    /* border: 2px solid red; */
+
+}
+
+p {
+font-size: 15px;
+text-align: center;
+color: white;
+
+}
+
+.meniu ul {
+    margin: 2px;
+    padding: 5px;
+    list-style: none;
+    background-color: rgb(247, 10, 10);
+    overflow: auto;
+    
+}
+
+h1 {
+margin: 2px;
+
+}
+
+ul li {
+ font-size: 15px;
+ color: cornsilk;
+ float: left;
+ padding: 4px 10px;
+ background-color: rgb(247, 10, 10);
+
+}
+
+ul::after {
+        content: "";
+        display: table;
+        clear: both;
+
+}
+
+
+li a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+ul li:hover {
+background-color:darkblue;
+}
+
+div.clikas {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 15px;
+}
+
+div.clikas img {
+width: 30px;
+height: 30px;
+}
+
+

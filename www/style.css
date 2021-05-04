@@ -1,0 +1,444 @@
+/* body {
+    width: 100%;
+    margin-left: auto;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.2em;
+} */
+
+
+.virsus {
+width: 100%;
+height: 20px;
+transition: all 300ms cubic-bezier(0, 0, 0.25, 1);
+position:fixed;
+top: 0px;
+
+
+}
+
+.virsus:hover {
+    background-color:white;
+    z-index: 2;
+} 
+
+/* LOGOTIPAS */
+
+div.logo img{
+
+    margin-top: 35px;
+    margin-left: 15px ;
+    width: 115px;
+}
+
+/* .logo{
+
+    margin: 20px auto 0 0 ;
+    box-sizing: border-box;
+    
+} */
+
+.logo2{
+display: none;
+
+}
+
+
+/* .logo2{
+    display: none;
+}
+
+.virsus:hover .logo2 {
+    display:inline-block;
+    left: 46,5% ;
+} */
+
+
+/* LOGO TIPAS END */
+
+
+/* ICONOS:USER/PAIESKA/KREPSELIS */
+
+.user1 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9px;
+    left: 87%;
+    z-index: 10;
+}
+.virsus:hover .user1 img{
+    display: none;
+    z-index: 8;
+}
+
+.user2 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9px;
+    left: 87%;
+    z-index: 9 ;
+}
+.icon .searsh1 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9px;
+    left: 90%;
+    z-index: 10;
+}
+.virsus:hover .searsh1 img{
+    display: none;
+    z-index: 8;
+}
+
+.icon .searsh2 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 9.136px;
+    left: 89.95%;
+    z-index: 9 ;
+}
+
+.icon .cart1 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 6px;
+    left: 93%;
+    z-index: 10;
+}
+
+.virsus:hover .cart1 img{
+    display: none;
+    z-index: 8;
+}
+.icon .cart2 {
+    position:absolute;
+    margin: 20px;
+    float: right;
+    vertical-align: top;
+    top: 6px;
+    left: 93%;
+    z-index: 9 ;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+.cart1 img{
+    width: 29px;
+    height: 29px;
+}
+.cart2 img{
+    width: 29px;
+    height: 29px;
+}
+
+/* ICONOS:USER/PAIESKA/KREPSELIS END'as*/
+
+/* ISOKANTIS MANIU BEGRAUDAS su MENIU*/
+
+
+.ulas ul {
+    list-style: none;
+    padding: 23px 5px;
+    background-color:transparent;
+    float: left;
+}
+
+li {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 0px 10.5px;
+
+}
+
+ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.virsus:hover ul a{
+    color: black;
+}
+
+ul a:hover{
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    background-color: #ddd;
+}
+
+.icon a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ISOKANTIS MANIU BEGRAUDAS su MENIU END'as*/
+
+
+/* DVI NUOTRAUKAS DIDELES */
+.bigfotosss img {
+    width: 100%;
+    height: auto;
+}
+
+.bigfotosss div {
+    display: inline-block;
+    width: 50%;
+}
+
+.bigfotosss {
+    letter-spacing: -.31em;
+}
+
+
+h1{
+    position: absolute;
+    top: 250px;
+    left: 12%;
+    color: white;
+    letter-spacing: 0.08em;
+}
+
+
+
+h2 {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 430px;
+    left: 17%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+
+
+}
+
+h2:hover {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 430px;
+    left: 17%;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 2px solid floralwhite;
+    background:#ff7c24;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    
+
+}
+
+
+.bigfotosss .text2 h1{
+    left: 65%;
+}
+
+.bigfotosss .text2 h2{
+    left: 69%;
+}
+    
+/* PIRMAS PREKIU BLOKAS 3PREKES */
+
+.Pav_prekes{
+    margin: 80px 46% 30px;
+} 
+
+.Pav_prekes a{
+    color: #2a2928;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-size: 26.25px;
+    line-height: 1.2;
+}
+
+.prekes{
+    margin-left: 10%;
+}
+
+.prekes div .CC{
+    padding: 0 2px 0 0;
+    width: 30%;
+    float: left;
+
+}
+
+.prekes .CM{
+    padding: 0 2px 0 0;
+    float: left;
+    width: 30%;
+
+}
+
+.prekes .NN{
+    width: 30%;
+    float: left;
+    /* position: relative; */
+
+}
+.prekes img {
+    width: 100%;
+/*     
+    width: 100%;
+    height: 100%; */
+
+}
+
+/* IMG HOVERIS NEVEIKIA */
+
+div img.img-top{
+    display: none;
+ 
+}
+
+.CC:hover .img-top{
+    display: inline;
+
+    }
+    
+
+
+/* IMG HOVERIS NEVEIKIA END*/
+
+    
+.prekes span {
+position: absolute;
+padding: 3px 8px 2px;
+font-size: 0.6875em;
+line-height: 1.4em;
+letter-spacing: 0.1em;
+background: #a94400;
+color: white;
+
+}
+
+span.rudas {
+    background: #ac353b;;
+}
+
+
+.prekes p {
+    height: 44px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+
+
+}
+.prekes::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.de{
+    opacity: 0.5;
+}
+
+/* ANTRA PREKIU EILE */
+.Pav_prekes2{
+    margin: 80px auto;
+} 
+
+.Pav_prekes2 a{
+    margin: 0 2px 0 40%;
+    color: #2a2928;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-size: 26.25px;
+    line-height: 1.2;
+}
+
+span.rudas {
+    background: #25110e;
+}
+
+.fotoapacia{
+    margin-bottom: 80px;
+
+}
+
+.fotoapacia img{
+    float: left;
+    width: 50%;
+}
+
+.fotoapaciaD img{
+    width: 50%;
+    position:absolute;
+    z-index: -10;
+    
+}
+.fotoapacia2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+span.tekstas_all {
+    margin: 80px 50px 60px 40px;
+    padding: 80px;
+    position:absolute;
+    color:#ff7c24;
+    font-size: 1.75em;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+    
+}
+
+span.tekstas_all p{
+    position: absolute;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5em;
+
+}
+
+
+.feedback {
+    display: inline-block;
+    width: 100%;
+    margin: 50px 0 1em;
+    text-align: center;
+    color: #2a2928;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    text-decoration: none;
+
+}
+
+
+
