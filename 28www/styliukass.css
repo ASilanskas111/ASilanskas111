@@ -992,22 +992,7 @@ span.color {
 }
 
 .pagefooter {
-  width: 100%;
-  height: auto;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: 90px 0 0;
-  display: block;
-}
-
-.container p {
-  font-size: 15px;
-  line-height: 1.5em;
-  letter-spacing: 0.08em;
-  color: #7e7d7c;
-  display: block;
-  margin: 0 0 5px;
-  padding: 0;
+  padding: 50px 0 0;
 }
 
 .pirmas {
@@ -1040,7 +1025,6 @@ span.color {
   width: 25%;
   height: auto;
   float: left;
-  padding: 0 20px 90px;
   text-align: left;
   color: #7e7d7c;
 }
