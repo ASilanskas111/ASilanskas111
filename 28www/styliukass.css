@@ -407,6 +407,7 @@ li a {
   background: #a94400;
   color: white;
   top: 10px;
+  left: 0;
   z-index: 10;
 }
 
@@ -446,7 +447,6 @@ span.red {
 }
 
 .Pav_prekes2 a {
-  margin: 0 2px 0 40%;
   color: #2a2928;
   font-family: Montserrat, sans-serif;
   text-decoration: none;
@@ -547,6 +547,7 @@ span.red {
   letter-spacing: 0.1em;
   background: #a94400;
   color: white;
+  left: 0;
 }
 
 .prekes2 p {
@@ -761,6 +762,7 @@ span.rudas {
   letter-spacing: 0.1em;
   background: #a94400;
   color: white;
+  left: 0;
 }
 
 .prekes3 {
@@ -880,43 +882,72 @@ span.color {
   display: block;
   height: 0;
   clear: both;
+  visibility: hidden;
 }
 
 .box5 {
   width: 100%;
   height: auto;
-  background-color: #ece9e7;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: calc(100% - 40px * 2);
+  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #999898;
 }
 
-.box-left {
-  width: 50%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: 20px 0  20px 20px;
-  background-color: #ece9e7;
-  float: left;
-  width: calc(50% - 40px);
+.slider_img {
+  width: 553px;
+  height: 553px;
+  overflow: hidden;
+  position: absolute;
+  margin: 40px;
+  border: 2px solid red;
+}
+
+.slider_img img {
+  width: 100%;
+  height: auto;
+}
+
+.slider_img input {
+  display: none;
+}
+
+.slider_img img {
+  position: absolute;
+  opacity: 0;
+  left: -900px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.slider_img input:checked + img {
+  opacity: 1;
+  left: 0;
+}
+
+.rodykles {
+  margin-top: 310px;
+  left: -80px;
+  position: absolute;
+}
+
+.centr {
+  margin: 0 auto;
+  top: 10px;
+  display: inline-block;
+  margin: 40px;
+}
+
+.centr label {
+  display: inline-block;
+  width: 370px;
+  cursor: pointer;
 }
 
 .box-right {
-  width: 50%;
-  height: auto;
-  padding: 80px;
-  background-color: #b64900;
-  float: left;
-  width: calc(50% - 40px);
-  text-align: center;
-}
-
-.box5:after {
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
+  background-color: #ffffff;
+  width: 100%;
+  height: 553px;
 }
 
 .Lookbook {
@@ -935,25 +966,50 @@ span.color {
   line-height: 1.2;
 }
 
+.lookbook2 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .deze {
-  width: 50%;
-  padding: 10px 20px;
+  width: 48%;
+  height: auto;
   margin: 20px 10px;
   background-color: #FAFAFA;
-  min-width: 420px;
   float: left;
+  overflow: hidden;
 }
 
 .deze img {
   width: 50%;
   height: auto;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  margin: 0 auto;
+}
+
+.deze img:hover {
+  -webkit-transform: scale(1) translate3d(0, 0, 0);
+          transform: scale(1) translate3d(0, 0, 0);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.lookbook2_right {
+  width: 48%;
+  height: auto;
+  margin: 20px 10px;
+  background-color: #FAFAFA;
+  float: left;
+  padding-bottom: 20px;
 }
 
 .dezeR {
-  width: 40%;
-  padding: 10px 20px;
-  margin: 20px 10px;
-  float: left;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 .dezeR img {
@@ -961,15 +1017,25 @@ span.color {
   height: auto;
   padding: 25px;
   float: left;
+  display: block;
 }
 
-.dezeR h1 {
-  font-size: 1.375em;
+.dezeR p {
+  text-align: left;
+}
+
+.dezeR a {
+  text-align: left;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 1.2;
-  text-align: left;
+}
+
+.dezeR::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .akiniai_slaideris {
@@ -1002,6 +1068,7 @@ span.color {
   padding: 0 20px 90px;
   text-align: left;
   color: #7e7d7c;
+  line-height: 1.2em;
 }
 
 .pirmas h6 {
@@ -1015,6 +1082,7 @@ span.color {
   padding: 0 20px 90px;
   text-align: left;
   color: #7e7d7c;
+  line-height: 1.2em;
 }
 
 .antras h6 {
@@ -1027,6 +1095,7 @@ span.color {
   float: left;
   text-align: left;
   color: #7e7d7c;
+  line-height: 1.2em;
 }
 
 .trecias h6 {
@@ -1040,6 +1109,7 @@ span.color {
   padding: 0 20px 90px;
   text-align: left;
   color: #7e7d7c;
+  line-height: 1.2em;
 }
 
 .ketvirtas h6 {
@@ -1055,7 +1125,9 @@ span.color {
 
 .container {
   border-top: 1px solid #d3d1d0;
+  border-bottom: 1px solid #d3d1d0;
   padding: 30px 0;
+  margin-bottom: 10px;
 }
 
 .container .soc img {
@@ -1073,5 +1145,13 @@ span.color {
 .end {
   border-top: 1px solid #d3d1d0;
   padding: 30px 0 0 0;
+  text-align: left;
+}
+
+.end span {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=styliukass.css.map */
