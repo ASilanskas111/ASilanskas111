@@ -227,6 +227,15 @@ li a {
   padding: 42px 15px;
 }
 
+@media (max-width: 900px) {
+  .logo {
+    width: 115px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
 .logo img {
   width: 115px;
   height: auto;
@@ -251,12 +260,26 @@ li a {
   clear: both;
 }
 
+@media (max-width: 900px) {
+  .logo .imgW {
+    padding: 42px 15px;
+  }
+}
+
 /* END UL'AI IR LI APRASYMAS, Logo aprasymas */
 /* ICONELES  */
 .icon {
   position: absolute;
   top: 10px;
   width: 100%;
+}
+
+@media (max-width: 900px) {
+  .icon {
+    width: 100%;
+    height: auto;
+    margin-left: -50px;
+  }
 }
 
 .icon img {
@@ -398,7 +421,15 @@ li a {
   .textas_col {
     width: 100%;
     height: auto;
-    top: 50%;
+    top: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .textas_col {
+    width: 100%;
+    height: auto;
+    top: 18%;
   }
 }
 
