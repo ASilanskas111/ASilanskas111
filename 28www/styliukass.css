@@ -11,12 +11,13 @@ body {
   font-size: 15px;
   line-height: 1.5em;
   color: #2a2928;
+  margin: 0;
 }
 
 /* ISOKANCIO MENIU SPALVA */
 .virsus {
   width: 100%;
-  height: 100px;
+  height: auto;
   margin: 0 auto;
   -webkit-transition: all 300ms cubic-bezier(0, 0, 0.25, 1);
   transition: all 300ms cubic-bezier(0, 0, 0.25, 1);
@@ -29,6 +30,12 @@ body {
   background-color: white;
   z-index: 30;
   position: fixed;
+}
+
+.virus::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* END ISOKANCIO MENIU SPALVA */
@@ -65,6 +72,12 @@ li a {
   color: black;
 }
 
+.ulas::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .logo {
   width: 115px;
   height: auto;
@@ -88,6 +101,12 @@ li a {
 
 .virsus:hover .imgW {
   display: none;
+}
+
+.logo::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* END UL'AI IR LI APRASYMAS, Logo aprasymas */
@@ -200,47 +219,103 @@ li a {
 /* END'AS IKONELES */
 /* DIDELES NUOTRAUKAS */
 .bigfotosss {
-  letter-spacing: -.31em;
   width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
-.bigfotosss .B1 img {
+.col {
+  width: 100%;
+  height: auto;
+}
+
+.col img {
   width: 50%;
   height: auto;
   float: left;
 }
 
-.bigfotosss .B2 img {
+@media (max-width: 900px) {
+  .col img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.textas_col {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .textas_col {
+    width: 100%;
+    height: auto;
+    top: 50%;
+  }
+}
+
+.tekstasB1 {
   width: 50%;
   height: auto;
+  margin: 0 auto;
+  display: inline-block;
+  position: absolute;
+}
+
+@media (max-width: 900px) {
+  .tekstasB1 {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .bigfotosss .STB {
+    display: none;
+  }
+}
+
+.tekstasB2 {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  position: absolute;
+}
+
+@media (max-width: 900px) {
+  .tekstasB2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.col::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* tesktas */
 .tekstasB1 {
-  position: absolute;
-  top: 250px;
-  left: 10%;
-  margin: 0 auto;
   color: #fafff8;
   letter-spacing: 0.05em;
   text-align: center;
 }
 
 .tekstasB2 {
-  position: absolute;
-  top: 250px;
-  left: 65%;
-  margin: 0 auto;
   color: white;
   letter-spacing: 0.05em;
   text-align: center;
 }
 
-.B1 span {
-  position: absolute;
-  color: white;
-  top: 400px;
-  left: 15%;
+.tekstasB1 span {
   border-radius: 100px;
   padding: 14px 28px;
   border: 2px solid floralwhite;
@@ -251,11 +326,7 @@ li a {
   cursor: pointer;
 }
 
-.B2 span {
-  position: absolute;
-  color: white;
-  top: 400px;
-  left: 70%;
+.tekstasB2 span {
   border-radius: 100px;
   padding: 14px 28px;
   border: 2px solid floralwhite;
@@ -266,11 +337,7 @@ li a {
   cursor: pointer;
 }
 
-.B1 span:hover {
-  position: absolute;
-  color: white;
-  top: 400px;
-  left: 15%;
+.tekstasB1 span:hover {
   border-radius: 100px;
   padding: 14px 28px;
   border: 2px solid floralwhite;
@@ -280,11 +347,7 @@ li a {
   letter-spacing: 0.08em;
 }
 
-.B2 span:hover {
-  position: absolute;
-  color: white;
-  top: 400px;
-  left: 70%;
+.tekstasB2 span:hover {
   border-radius: 100px;
   padding: 14px 28px;
   border: 2px solid floralwhite;
@@ -296,7 +359,7 @@ li a {
 
 /* PREKES PIRMAS BLOKAS */
 .Pav_prekes {
-  margin: 80px 46% 50px;
+  margin: 80px;
 }
 
 .Pav_prekes a {
@@ -309,9 +372,11 @@ li a {
 
 /* PIRMOS TRYS PREKES */
 .prekes {
-  width: 100%;
-  height: auto;
-  padding: 0 80px 0 80px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: calc(100% - 40px * 2);
 }
 
 .prekes img {
@@ -437,9 +502,11 @@ span.red {
 
 /* ANTRA PREKIU GRUOPE */
 .prekes2 {
-  width: 100%;
-  height: auto;
-  padding: 0 80px 0 80px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: calc(100% - 40px * 2);
 }
 
 .Pav_prekes2 {
@@ -594,14 +661,40 @@ span.rudas {
 }
 
 .tekstas_all {
-  width: 45%;
-  margin-left: 52%;
-  padding: 80px;
+  width: calc(50% - 40px);
+  margin-left: 50%;
+  padding: 120px;
   position: absolute;
   color: #ff7c24;
   letter-spacing: 0.05em;
   text-align: center;
   z-index: 20;
+}
+
+@media (max-width: 1200px) {
+  .tekstas_all {
+    padding-top: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .tekstas_all {
+    width: calc(50% - 40px);
+    padding-top: 5%;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tekstas_all {
+    width: calc(50% - 40px);
+    padding-top: 5%;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
 
 .tekstas_all span {
@@ -735,15 +828,14 @@ span.rudas {
   display: block;
   height: 0;
   clear: both;
-  visibility: hidden;
 }
 
 /* ______________________________________________________________________ */
 .Pav_prekes3 {
   /* margin: 80px 0 50px; */
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .Pav_prekes3 a {
@@ -766,11 +858,11 @@ span.rudas {
 }
 
 .prekes3 {
-  width: 100%;
-  padding: 0 80px 0 80px;
-  float: left;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: calc(100% - 40px * 2);
 }
 
 .prekes3 img {
@@ -887,11 +979,81 @@ span.color {
 
 .box5 {
   width: 100%;
-  height: auto;
-  padding: 40px;
+  height: 713px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #999898;
+  background-color: #ece9e7;
+}
+
+@media (max-width: 1100px) {
+  .box5 {
+    width: 100%;
+    height: auto;
+    padding-left: center;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent;
+  }
+}
+
+.boxkaire {
+  width: 50%;
+  height: 553px;
+  background-color: #ffffff;
+  float: left;
+}
+
+.boxdesine {
+  width: 50%;
+  height: 553px;
+  background-color: #ffffff;
+  float: right;
+}
+
+@media (max-width: 1100px) {
+  .boxkaire {
+    float: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .boxdesine {
+    height: 100%;
+    float: none;
+    display: none;
+  }
+}
+
+.boxDT {
+  padding: 80px;
+  margin-top: 25%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.boxDT h2 {
+  font-size: 1.75em;
+  margin: 0 0 1em;
+  line-height: 1.2;
+}
+
+.boxDT p {
+  margin: 0 0 1em;
+}
+
+.boxDT a {
+  font-size: 0.875em;
+  line-height: 1.5em;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: #2a2928;
+  border-bottom: 2px solid;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
 }
 
 .slider_img {
@@ -899,8 +1061,6 @@ span.color {
   height: 553px;
   overflow: hidden;
   position: absolute;
-  margin: 40px;
-  border: 2px solid red;
 }
 
 .slider_img img {
@@ -926,28 +1086,21 @@ span.color {
 }
 
 .rodykles {
-  margin-top: 310px;
-  left: -80px;
   position: absolute;
 }
 
 .centr {
-  margin: 0 auto;
-  top: 10px;
-  display: inline-block;
-  margin: 40px;
+  width: 553px;
+  height: auto;
+  margin-top: 50%;
 }
 
-.centr label {
-  display: inline-block;
-  width: 370px;
-  cursor: pointer;
+.fa-angle-left {
+  padding: 0 200px 0 0;
 }
 
-.box-right {
-  background-color: #ffffff;
-  width: 100%;
-  height: 553px;
+.fa-angle-right {
+  padding: 0 0 0 200px;
 }
 
 .Lookbook {
@@ -956,6 +1109,7 @@ span.color {
   margin: 10px auto;
   padding: 20px;
   text-align: center;
+  display: inline-block;
 }
 
 .Lookbook a {
@@ -981,21 +1135,39 @@ span.color {
   overflow: hidden;
 }
 
-.deze img {
-  width: 50%;
-  height: auto;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+.zomimg {
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.deze img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  cursor: pointer;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: block;
 }
 
 .deze img:hover {
-  -webkit-transform: scale(1) translate3d(0, 0, 0);
-          transform: scale(1) translate3d(0, 0, 0);
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.deze h1 {
+  cursor: pointer;
+  -webkit-transition: color 150ms, background-color 150ms, border-color 150ms;
+  transition: color 150ms, background-color 150ms, border-color 150ms;
+}
+
+.deze h1:hover {
+  color: #ff7c24;
 }
 
 .lookbook2_right {
@@ -1017,19 +1189,46 @@ span.color {
   height: auto;
   padding: 25px;
   float: left;
-  display: block;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+}
+
+.dezeR img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .dezeR p {
   text-align: left;
 }
 
-.dezeR a {
+.dezeR h1 {
+  font-size: 1.375em;
+  margin: 0 0 0.68em;
   text-align: left;
-  font-family: Montserrat, sans-serif;
-  font-weight: 500;
-  font-style: normal;
   line-height: 1.2;
+  text-decoration: none;
+  color: #2a2928;
+  -webkit-transition: color 150ms, background-color 150ms, border-color 150ms;
+  transition: color 150ms, background-color 150ms, border-color 150ms;
+}
+
+.dezeR h1:hover {
+  color: #ff7c24;
+}
+
+.dezeR a {
+  font-size: 0.875em;
+  line-height: 1.5em;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: #2a2928;
+  border-bottom: 2px solid;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
 }
 
 .dezeR::after {
@@ -1068,11 +1267,17 @@ span.color {
   padding: 0 20px 90px;
   text-align: left;
   color: #7e7d7c;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 .pirmas h6 {
   color: #2a2928;
+}
+
+.pirmas a {
+  display: block;
+  margin: 0 0 5px;
+  padding: 0;
 }
 
 .antras {
@@ -1089,6 +1294,12 @@ span.color {
   color: #2a2928;
 }
 
+.antras a {
+  display: block;
+  margin: 0 0 5px;
+  padding: 0;
+}
+
 .trecias {
   width: 25%;
   height: auto;
@@ -1100,6 +1311,12 @@ span.color {
 
 .trecias h6 {
   color: #2a2928;
+}
+
+.trecias a {
+  display: block;
+  margin: 0 0 5px;
+  padding: 0;
 }
 
 .ketvirtas {
@@ -1114,6 +1331,12 @@ span.color {
 
 .ketvirtas h6 {
   color: #2a2928;
+}
+
+.ketvirtas a {
+  display: block;
+  margin: 0 0 5px;
+  padding: 0;
 }
 
 .pagefooter:after {
@@ -1143,15 +1366,23 @@ span.color {
 }
 
 .end {
-  border-top: 1px solid #d3d1d0;
-  padding: 30px 0 0 0;
+  width: 100%;
+  height: auto;
+  padding: 30px 0 0 30px;
   text-align: left;
 }
 
-.end span {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.endas1 {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.pay {
+  width: 50%;
+  height: auto;
+  text-align: right;
+  padding: 0 40px 0 0;
+  float: right;
 }
 /*# sourceMappingURL=styliukass.css.map */
