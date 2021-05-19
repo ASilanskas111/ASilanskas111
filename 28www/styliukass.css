@@ -285,6 +285,7 @@ li a {
 .icon img {
   width: 24px;
   height: 24px;
+  margin: 2px;
   list-style: none;
   text-align: right;
   display: inline-block;
